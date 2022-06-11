@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 200%;
+    text-align: center;
+}
+div h1 {
+    padding: 50px;
+    color: white;
+}
+div p {
+    padding: 0 50px 50px 50px;
+    color: white;
+}
+
+#text1 {
+    background-color: #0d1b2a;
+
+}
+#text2{
+    background-color: #1b263b;
+}
+#text3{
+    background-color: #415a77;
+}
+
+/* imagem */
+
+.imagem1, .imagem2, .imagem3, .imagem4{
+    height: 100vh;
+    filter:contrast(60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 80px;
+    background-attachment: fixed;
+}
+.imagem1{
+    background-image: url("https://images5.alphacoders.com/439/439361.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: overline;
+    
+    
+}
+.imagem2{
+    background-image: url("https://s1.1zoom.me/b5050/400/423374-svetik_1920x1080.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.imagem3{
+    background-image: url("https://cdn.wallpapersafari.com/43/16/qzTS9H.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.imagem4{
+    background-image: url("https://images5.alphacoders.com/439/439361.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
